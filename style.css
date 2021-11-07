@@ -8,29 +8,31 @@
   height: 200px;
   margin: auto;
   margin-top: 20%;
-  background-color: azure;
+  /* background-color: azure; */
   position: relative;
   color: darkred;
   text-align: center;
   font-size: xx-large;
+  overflow: hidden;
 }
 
 .dino {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin: 5px;
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: yellowgreen;
+  background-image: url(./t-rex.png);
+  /* background-color: azure; */
 }
 
 .obstacle {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin: 5px;
-  border-radius: 20px;
-  background-color: gray;
+  background-image: url(./cacti.png);
+  /* background-color: azure; */
   position: absolute;
   bottom: 0;
   right: 0;

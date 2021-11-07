@@ -12,6 +12,9 @@ const control = (e) => {
       isJumping = true;
       jump();
     }
+    if (isGameOver) {
+      location.reload();
+    }
   }
 };
 
@@ -30,7 +33,7 @@ const jump = () => {
     count++;
     position = position * gravity;
     dino.style.bottom = position + 'px';
-    if (count === 15) {
+    if (count === 12) {
       clearInterval(upTimer);
     }
   }, 20);
