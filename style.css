@@ -4,12 +4,15 @@
 }
 
 .grid {
-  width: 80%;
+  width: 800px;
   height: 200px;
   margin: auto;
   margin-top: 20%;
   background-color: azure;
   position: relative;
+  color: darkred;
+  text-align: center;
+  font-size: xx-large;
 }
 
 .dino {
@@ -20,4 +23,15 @@
   bottom: 0;
   left: 0;
   background-color: yellowgreen;
+}
+
+.obstacle {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
